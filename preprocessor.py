@@ -4,6 +4,7 @@ from sklearn.decomposition import NMF, PCA, TruncatedSVD
 import time
 start_time = time.time()
 
+
 raw_text = pickle.load(open('raw_text_data.pkl','rb'))
 
 # Make sure NaNs turn into strings
