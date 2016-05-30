@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 
-(W, H) = pickle.load(open('NMF100_topics_WH.pkl','rb'))
+(W, H) = pickle.load(open('NMF500_topics_WH.pkl','rb'))
 names = np.array(pickle.load(open('TF_IDF_feature_names.pkl','rb')))
 
 print(H.shape)
